@@ -1,0 +1,19 @@
+{
+    "repertoire": [
+        {
+            "nom": "Durand",
+            "prenom": "Jean",
+            "tel": "1234567890"
+        },
+        {
+            "nom": "Dupont",
+            "prenom": "Pierre",
+            "tel": "0987654321"
+        },
+        {
+            "nom": "test",
+            "prenom": "",
+            "tel": ""
+        }
+    ]
+}
