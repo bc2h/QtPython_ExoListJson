@@ -67,6 +67,7 @@ class Repertoire(QWidget):
         # jsonClasse = json.dumps(self.monRepertoire, sort_keys=True, indent=4)
         # f= open(fileName, 'w')
         # f.write(jsonClasse)
+        # f.close()
 
 if __name__ == '__main__':
     # Create the Qt Application
