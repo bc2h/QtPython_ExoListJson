@@ -1,0 +1,96 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'Qt_P8_ListJson_Design.ui',
+# licensing of 'Qt_P8_ListJson_Design.ui' applies.
+#
+# Created: Mon Jul 22 16:47:42 2019
+#      by: pyside2-uic  running on PySide2 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+from PySide2 import QtCore, QtGui, QtWidgets
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(540, 421)
+        self.horizontalLayout = QtWidgets.QHBoxLayout(Form)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.verticalLayout_4 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_4.setSizeConstraint(QtWidgets.QLayout.SetMinimumSize)
+        self.verticalLayout_4.setObjectName("verticalLayout_4")
+        self.lNom_2 = QtWidgets.QLabel(Form)
+        self.lNom_2.setObjectName("lNom_2")
+        self.verticalLayout_4.addWidget(self.lNom_2)
+        self.listNom = QtWidgets.QListWidget(Form)
+        self.listNom.setObjectName("listNom")
+        self.verticalLayout_4.addWidget(self.listNom)
+        self.horizontalLayout.addLayout(self.verticalLayout_4)
+        self.verticalLayout_3 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_3.setSizeConstraint(QtWidgets.QLayout.SetMaximumSize)
+        self.verticalLayout_3.setObjectName("verticalLayout_3")
+        spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
+        self.verticalLayout_3.addItem(spacerItem)
+        self.horizontalLayout_6 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_6.setObjectName("horizontalLayout_6")
+        self.lbNom_2 = QtWidgets.QLabel(Form)
+        self.lbNom_2.setMinimumSize(QtCore.QSize(60, 0))
+        self.lbNom_2.setObjectName("lbNom_2")
+        self.horizontalLayout_6.addWidget(self.lbNom_2)
+        self.ledNom = QtWidgets.QLineEdit(Form)
+        self.ledNom.setObjectName("ledNom")
+        self.horizontalLayout_6.addWidget(self.ledNom)
+        self.verticalLayout_3.addLayout(self.horizontalLayout_6)
+        self.horizontalLayout_7 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_7.setObjectName("horizontalLayout_7")
+        self.lbPrenom_2 = QtWidgets.QLabel(Form)
+        self.lbPrenom_2.setMinimumSize(QtCore.QSize(60, 0))
+        self.lbPrenom_2.setObjectName("lbPrenom_2")
+        self.horizontalLayout_7.addWidget(self.lbPrenom_2)
+        self.ledPrenom = QtWidgets.QLineEdit(Form)
+        self.ledPrenom.setObjectName("ledPrenom")
+        self.horizontalLayout_7.addWidget(self.ledPrenom)
+        self.verticalLayout_3.addLayout(self.horizontalLayout_7)
+        self.horizontalLayout_8 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_8.setObjectName("horizontalLayout_8")
+        self.lbTel_2 = QtWidgets.QLabel(Form)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.lbTel_2.sizePolicy().hasHeightForWidth())
+        self.lbTel_2.setSizePolicy(sizePolicy)
+        self.lbTel_2.setMinimumSize(QtCore.QSize(60, 0))
+        self.lbTel_2.setObjectName("lbTel_2")
+        self.horizontalLayout_8.addWidget(self.lbTel_2)
+        self.ledTel = QtWidgets.QLineEdit(Form)
+        self.ledTel.setObjectName("ledTel")
+        self.horizontalLayout_8.addWidget(self.ledTel)
+        self.verticalLayout_3.addLayout(self.horizontalLayout_8)
+        spacerItem1 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
+        self.verticalLayout_3.addItem(spacerItem1)
+        self.horizontalLayout_9 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_9.setSizeConstraint(QtWidgets.QLayout.SetMinimumSize)
+        self.horizontalLayout_9.setObjectName("horizontalLayout_9")
+        spacerItem2 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_9.addItem(spacerItem2)
+        self.pbModif = QtWidgets.QPushButton(Form)
+        self.pbModif.setObjectName("pbModif")
+        self.horizontalLayout_9.addWidget(self.pbModif)
+        self.pbAjout = QtWidgets.QPushButton(Form)
+        self.pbAjout.setObjectName("pbAjout")
+        self.horizontalLayout_9.addWidget(self.pbAjout)
+        self.verticalLayout_3.addLayout(self.horizontalLayout_9)
+        self.horizontalLayout.addLayout(self.verticalLayout_3)
+
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        Form.setWindowTitle(QtWidgets.QApplication.translate("Form", "Form", None, -1))
+        self.lNom_2.setText(QtWidgets.QApplication.translate("Form", "Liste de Noms :", None, -1))
+        self.lbNom_2.setText(QtWidgets.QApplication.translate("Form", "Nom", None, -1))
+        self.lbPrenom_2.setText(QtWidgets.QApplication.translate("Form", "Prénom", None, -1))
+        self.lbTel_2.setText(QtWidgets.QApplication.translate("Form", "Téléphone", None, -1))
+        self.pbModif.setText(QtWidgets.QApplication.translate("Form", "Modifier", None, -1))
+        self.pbAjout.setText(QtWidgets.QApplication.translate("Form", "Ajouter", None, -1))
+
